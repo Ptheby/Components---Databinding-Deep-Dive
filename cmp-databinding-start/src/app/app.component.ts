@@ -33,4 +33,7 @@ export class AppComponent implements OnInit {
       content: blueprintData.serverContent,
     });
   }
+  onChangeFirst() {
+    this.serverElements[0].name="Changed!";
+  }
 }
