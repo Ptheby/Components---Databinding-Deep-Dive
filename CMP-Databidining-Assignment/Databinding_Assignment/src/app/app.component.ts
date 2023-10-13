@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Databinding_Assignment';
+
+  onIntervalFired(firedNumber:number) {
+    console.log(firedNumber)
+  }
 }
